@@ -4,52 +4,52 @@ public class Main {
     public static void main(String[] args) {
 //        System.out.println("=== Welcome to the library ===");
         Scanner sc = new Scanner(System.in);
-//        System.out.println("Enter the name :");
-//        String name =sc.nextLine();
-//        System.out.println("Enter last name:");
-//        String lastName=sc.nextLine();
-//        System.out.println("Enter the birthday :");
-//        String birthday=sc.nextLine();
-//        System.out.println("Enter the age :");
-//        int age=sc.nextInt();
-//        System.out.println("Enter the gender :1 is man 2 is woman");
-//        int gender=sc.nextInt();
-//
-//        if(gender==1){
-//            System.out.println("man");
-//        }
-//        else if(gender==2){
-//            System.out.println("woman");
-//        }
-//        else{
-//            System.out.println("this number is invalid number ");
-//        }
-//        sc.nextLine();
-//        System.out.println("Enter the phone number :");
-//        String phone=sc.nextLine();
-//        sc.nextLine();
-//        System.out.println("Enter the address :");
-//        String address=sc.nextLine();
-//        sc.nextLine();
-//        System.out.println("___________________________________________-");
-//        Personal_Information p1=new Personal_Information();
-//        p1.setName(name);
-//        p1.setLastName(lastName);
-//        p1.setAddress(address);
-//        p1.setBirthday(birthday);
-//        p1.setGender(gender);
-//        p1.setPhone(phone);
-//        p1.setAge(age);
-//        p1.getPhone();
-//
-//
-//        System.out.println("full name :"+p1.getName()+ " "+p1.getLastName());
-//        System.out.println("Age :"+p1.getAge());
-//        System.out.println("phone number :"+p1.getPhone());
-//        System.out.println("address :"+p1.getAddress());
-//        System.out.println("birthday :"+p1.getBirthday());
-//        System.out.println("gender :"+p1.getGender());
-//        System.out.println("\t=== thinks for the information ===\t");
+        System.out.println("Enter the name :");
+        String name =sc.nextLine();
+        System.out.println("Enter last name:");
+        String lastName=sc.nextLine();
+        System.out.println("Enter the birthday :");
+        String birthday=sc.nextLine();
+        System.out.println("Enter the age :");
+        int age=sc.nextInt();
+        System.out.println("Enter the gender :1 is man 2 is woman");
+        int gender=sc.nextInt();
+
+        if(gender==1){
+            System.out.println("man");
+        }
+        else if(gender==2){
+            System.out.println("woman");
+        }
+        else{
+            System.out.println("this number is invalid number ");
+        }
+        sc.nextLine();
+        System.out.println("Enter the phone number :");
+        String phone=sc.nextLine();
+        sc.nextLine();
+        System.out.println("Enter the address :");
+        String address=sc.nextLine();
+        sc.nextLine();
+        System.out.println("___________________________________________-");
+        Personal_Information p1=new Personal_Information();
+        p1.setName(name);
+        p1.setLastName(lastName);
+        p1.setAddress(address);
+        p1.setBirthday(birthday);
+        p1.setGender(gender);
+        p1.setPhone(phone);
+        p1.setAge(age);
+        p1.getPhone();
+
+
+        System.out.println("full name :"+p1.getName()+ " "+p1.getLastName());
+        System.out.println("Age :"+p1.getAge());
+        System.out.println("phone number :"+p1.getPhone());
+        System.out.println("address :"+p1.getAddress());
+        System.out.println("birthday :"+p1.getBirthday());
+        System.out.println("gender :"+p1.getGender());
+        System.out.println("\t=== thinks for the information ===\t");
         System.out.println("____________________________________________________");
         Book_Information book = new Book_Information();
         System.out.println("Enter the member of the book: ");
